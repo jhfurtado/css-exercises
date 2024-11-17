@@ -1,6 +1,14 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  /* Adição de flexbox */
+  justify-content: space-between;
+  /* Adição de espaço entre elementos */
+  align-items: center;
+  /* Deixar todos os elementos centralizados */
+  padding: 10px;
+  /* Adição de padding a todos os elementos */
 }
 
 .logo {
@@ -14,6 +22,14 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  /* Adição de flex nos links do menu */
+  flex-wrap: wrap;
+  /* Impedir que listagem quebre ao diminuir a tela */
+  gap: 20px;
+  /* Adição de espaço entre itens do menu */
+  margin: 0;
+  padding: 0;
 }
 
 a {
